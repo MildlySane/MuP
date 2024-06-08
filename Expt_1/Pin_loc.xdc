@@ -1,0 +1,14 @@
+set_property -dict { PACKAGE_PIN L5    IOSTANDARD LVCMOS33 } [get_ports { a0 }];#LSB
+set_property -dict { PACKAGE_PIN L4    IOSTANDARD LVCMOS33 } [get_ports { a1 }];#LSB
+set_property -dict { PACKAGE_PIN M4    IOSTANDARD LVCMOS33 } [get_ports { a2 }];#LSB
+set_property -dict { PACKAGE_PIN M2    IOSTANDARD LVCMOS33 } [get_ports { a3 }];#LSB
+set_property -dict { PACKAGE_PIN M1    IOSTANDARD LVCMOS33 } [get_ports { b0 }];#LSB
+set_property -dict { PACKAGE_PIN N3    IOSTANDARD LVCMOS33 } [get_ports { b1 }];#LSB
+set_property -dict { PACKAGE_PIN N2    IOSTANDARD LVCMOS33 } [get_ports { b2 }];#LSB
+set_property -dict { PACKAGE_PIN N1    IOSTANDARD LVCMOS33 } [get_ports { b3 }];#LSB
+set_property -dict { PACKAGE_PIN P1    IOSTANDARD LVCMOS33 } [get_ports { c0 }];
+set_property -dict { PACKAGE_PIN J3    IOSTANDARD LVCMOS33 } [get_ports { s0 }];
+set_property -dict { PACKAGE_PIN H3    IOSTANDARD LVCMOS33 } [get_ports { s1 }];
+set_property -dict { PACKAGE_PIN J1    IOSTANDARD LVCMOS33 } [get_ports { s2 }];
+set_property -dict { PACKAGE_PIN K1    IOSTANDARD LVCMOS33 } [get_ports { s3 }];
+set_property -dict { PACKAGE_PIN L3    IOSTANDARD LVCMOS33 } [get_ports { cout }];

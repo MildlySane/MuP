@@ -1,0 +1,24 @@
+	AREA Program, CODE, READONLY
+	ENTRY
+	
+	LDR R0, #0
+	
+	LDR R1, #0
+	LDR R2, #1
+	
+LOOP:
+	CMP R0, #10
+	BEQ DISPLAY
+	
+	ADD R0, R0, #1
+	ADD R3, R1, R2
+	MOV R1, R2
+	MOV R2, R3
+	
+	B LOOP
+
+DISPLAY:
+	LDR R4,[R2]
+	SWI &11
+	
+	END
